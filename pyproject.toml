@@ -3,11 +3,17 @@ name = "ev-earnings-rag"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "bs4>=0.0.2",
     "ipykernel>=7.2.0",
-    "langchain>=1.2.10",
+    "langchain[google-genai]>=1.2.10",
     "langchain-community>=0.4.1",
     "langchain-text-splitters>=1.1.1",
+    "python-dotenv>=1.2.1",
+    "langchain-chroma>=1.1.0",
+    "pypdf>=6.7.1",
+    "pillow>=12.1.1",
+    "lxml>=6.0.2",
+    "jq>=1.11.0",
 ]
